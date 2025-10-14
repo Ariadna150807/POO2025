@@ -128,9 +128,22 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="sources\main.cpp" />
+<<<<<<< Updated upstream
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Prerequisites.h" />
+=======
+    <ClCompile Include="sources\ProgramingPatters\Builder\BuilderConcreto.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Prerequisites.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Builder\Builder.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Builder\BuilderConcreto.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Builder\Director.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Builder\Producto.h" />
+    <ClInclude Include="include\ProgrammingPatterns\MiSingleton.h" />
+    <ClInclude Include="RegistroActividad.h" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

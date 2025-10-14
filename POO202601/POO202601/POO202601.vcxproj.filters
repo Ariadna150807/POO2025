@@ -13,15 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+<<<<<<< Updated upstream
+=======
+    <Filter Include="Archivos de encabezado\ProgrammingPatters">
+      <UniqueIdentifier>{096d3e1c-4241-4ea8-98a9-761b7a87552f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ProgrammingPatters\Builder">
+      <UniqueIdentifier>{027ac5e3-337e-480f-90dc-184ca5801aa8}</UniqueIdentifier>
+    </Filter>
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sources\main.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+<<<<<<< Updated upstream
+=======
+    <ClCompile Include="sources\ProgramingPatters\Builder\BuilderConcreto.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Prerequisites.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+<<<<<<< Updated upstream
+=======
+    <ClInclude Include="include\ProgrammingPatterns\MiSingleton.h">
+      <Filter>Archivos de encabezado\ProgrammingPatters</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistroActividad.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Builder\Builder.h">
+      <Filter>Archivos de encabezado\ProgrammingPatters\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Builder\BuilderConcreto.h">
+      <Filter>Archivos de encabezado\ProgrammingPatters\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Builder\Producto.h">
+      <Filter>Archivos de encabezado\ProgrammingPatters\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Builder\Director.h">
+      <Filter>Archivos de encabezado\ProgrammingPatters\Builder</Filter>
+    </ClInclude>
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>
