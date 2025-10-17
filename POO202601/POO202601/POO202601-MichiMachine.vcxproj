@@ -133,6 +133,9 @@
   <ItemGroup>
     <ClInclude Include="include\GestorTickets.h" />
     <ClInclude Include="include\Prerequisites.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\Adaptador.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\InterfazNueva.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\InterfazVieja.h" />
     <ClInclude Include="include\ProgrammingPatterns\Builder\Builder.h" />
     <ClInclude Include="include\ProgrammingPatterns\Builder\BuilderConcreto.h" />
     <ClInclude Include="include\ProgrammingPatterns\Builder\Director.h" />

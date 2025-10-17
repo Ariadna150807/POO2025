@@ -22,6 +22,15 @@
     <ClInclude Include="include\ProgrammingPatterns\Builder\Producto.h">
       <Filter>Includes</Filter>
     </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\Adaptador.h">
+      <Filter>Includes\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\InterfazNueva.h">
+      <Filter>Includes\Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Adapter\InterfazVieja.h">
+      <Filter>Includes\Adapter</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Includes">
@@ -29,6 +38,9 @@
     </Filter>
     <Filter Include="Source">
       <UniqueIdentifier>{673e0015-40c9-416b-b614-8e4d7d2abb95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Adapter">
+      <UniqueIdentifier>{97bc5478-19a8-4178-8bc5-6fd0ca1e3bf8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

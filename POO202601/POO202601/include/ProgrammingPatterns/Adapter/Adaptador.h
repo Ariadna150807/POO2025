@@ -1,7 +1,7 @@
 #pragma once
 #include "Prerequisites.h"
-#include "ProgrammingPattterns\Adapter\InterfazNueva.h"
-#include "ProgrammingPattterns\Adapter\InterfazVieja.h"
+#include "ProgrammingPatterns\Adapter\InterfazNueva.h"
+#include "ProgrammingPatterns\Adapter\InterfazVieja.h"
 
 class 
 Adaptador : public InterfazNueva {
