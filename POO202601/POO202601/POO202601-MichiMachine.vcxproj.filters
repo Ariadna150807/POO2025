@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="sources\main.cpp" />
+    <ClCompile Include="sources\ProgramingPatters\Builder\BuilderConcreto.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\GestorTickets.h" />
+    <ClInclude Include="include\Prerequisites.h" />
+    <ClInclude Include="include\Ticket.h" />
+    <ClInclude Include="include\ProgrammingPatterns\Builder\Builder.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Builder\BuilderConcreto.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Builder\Director.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Builder\Producto.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{7e125715-8c15-40db-a3d0-1e8462e57b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{673e0015-40c9-416b-b614-8e4d7d2abb95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

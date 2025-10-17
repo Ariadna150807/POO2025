@@ -16,6 +16,5 @@ Producto* BuilderConcreto :: getProducto() {
 	if (producto) {
 		return producto;
 	}
-	}
 	return nullptr;
 }

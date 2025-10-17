@@ -1,17 +1,11 @@
 #pragma once
-<<<<<<< Updated upstream
-
-=======
 #define _CRT_SECURE_NO_WARNINGS
 
 //Librerias estandar
->>>>>>> Stashed changes
 #include <iostream>
 #include <string>
 #include <vector>
 #include <ctime>
-<<<<<<< Updated upstream
-=======
 
 //Fecha en tiempopo real
 struct FechaHora {
@@ -51,4 +45,3 @@ EnPROCESO = 2,
 COMPLETADO = 3
 };
 
->>>>>>> Stashed changes

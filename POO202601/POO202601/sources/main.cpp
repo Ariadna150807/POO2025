@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-#include "Prerequisites.h"
-=======
 #include "Prerequisites.h"
 #include "ProgrammingPatterns/Builder/Builder.h"
 #include "ProgrammingPatterns/Builder/BuilderConcreto.h"
@@ -20,4 +17,4 @@ int main() {
 	delete builder;
 	return 0;
 }
->>>>>>> Stashed changes
+
