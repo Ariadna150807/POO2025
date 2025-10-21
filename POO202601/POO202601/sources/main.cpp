@@ -1,20 +1,21 @@
 #include "Prerequisites.h"
-#include "ProgrammingPatterns/Builder/Builder.h"
-#include "ProgrammingPatterns/Builder/BuilderConcreto.h"
-#include "ProgrammingPatterns/Builder/Director.h"
+#include "ProgrammingPatterns/Decorator/ComponenteConcreto.h"
+#include "ProgrammingPatterns/Decorator/DecoratorConcretoA.h"
+#include "ProgrammingPatterns/Decorator/DecoratorConcretoB.h"
 
 int main() {
-	Builder* builder = new BuilderConcreto();
-	Director* director = new Director(builder);
+	
+	ComponenteConcreto* objeto = new ComponenteConcreto();
+	DecoratorConcretoA* decoratorA = new DecoratorConcretoA(objeto);
+	DecoratorConcretoB* decoratorB = new DecoratorConcretoB(decoratorA);
 
-	director->construct();
+	objeto->operacion();
+	decoratorA->operacion();
+	decoratorB->operacion();
 
-	Producto* producto = builder->getProducto();
-	producto->show();
-
-	delete producto;
-	delete director;
-	delete builder;
+	delete objeto;
+	delete decoratorA;
+	delete decoratorB;
 	return 0;
 }
 

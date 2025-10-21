@@ -10,12 +10,6 @@
     <ClInclude Include="include\GestorTickets.h" />
     <ClInclude Include="include\Prerequisites.h" />
     <ClInclude Include="include\Ticket.h" />
-    <ClInclude Include="include\ProgrammingPatterns\Builder\Builder.h">
-      <Filter>Includes</Filter>
-    </ClInclude>
-    <ClInclude Include="include\ProgrammingPatterns\Builder\BuilderConcreto.h">
-      <Filter>Includes</Filter>
-    </ClInclude>
     <ClInclude Include="include\ProgrammingPatterns\Builder\Director.h">
       <Filter>Includes</Filter>
     </ClInclude>
@@ -31,6 +25,27 @@
     <ClInclude Include="include\ProgrammingPatterns\Adapter\InterfazVieja.h">
       <Filter>Includes\Adapter</Filter>
     </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Decorator\Componente.h">
+      <Filter>Includes\Decorador</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Decorator\ComponenteConcreto.h">
+      <Filter>Includes\Decorador</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Builder\Builder.h">
+      <Filter>Includes\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Builder\BuilderConcreto.h">
+      <Filter>Includes\Builder</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Decorator\Decorador.h">
+      <Filter>Includes\Decorador</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Decorator\DecoratorConcretoB.h">
+      <Filter>Includes\Decorador</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProgrammingPatterns\Decorator\DecoratorConcretoA.h">
+      <Filter>Includes\Decorador</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Includes">
@@ -41,6 +56,12 @@
     </Filter>
     <Filter Include="Includes\Adapter">
       <UniqueIdentifier>{97bc5478-19a8-4178-8bc5-6fd0ca1e3bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Decorador">
+      <UniqueIdentifier>{c6b4ad49-0ea0-4f37-9fa8-236acb57f022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Builder">
+      <UniqueIdentifier>{0ca929b3-3806-40fd-a9e7-0f58ca279b92}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
